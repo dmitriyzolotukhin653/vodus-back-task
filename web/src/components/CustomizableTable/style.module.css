@@ -1,0 +1,10 @@
+.table-icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.table-icon-wrapper > :global(.MuiSvgIcon-root) {
+    cursor: pointer;
+    width: 20px;
+}

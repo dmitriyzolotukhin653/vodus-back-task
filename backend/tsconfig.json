@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "removeComments": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "target": "esnext",
+    "sourceMap": true,
+    "moduleResolution": "Node",
+    "incremental": true,
+    "resolveJsonModule": false,
+    "isolatedModules": true
+  }
+}

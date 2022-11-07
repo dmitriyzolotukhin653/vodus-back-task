@@ -1,0 +1,30 @@
+.edit-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-input :global(.MuiSvgIcon-root) {
+  display: flex;
+  width: 20px;
+  margin-left: 20px;
+    cursor: pointer;
+}
+
+.edit-input__active {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-input__active > .edit-input__active_icons {
+    display: flex;
+    align-content: center;
+    margin-left: 20px;
+}
+
+.edit-input__active > .edit-input__active_icons > :last-child {
+    margin-left: 4px;
+}
+
+.edit-input__active :global(.MuiSvgIcon-root) {
+  cursor: pointer;
+}

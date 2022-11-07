@@ -1,0 +1,34 @@
+{
+  "name": "vodus_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "yarn convert && nodemon -i /data -e .ts,.js,.ejs",
+    "convert": "ts-node scripts/convertFile.ts ./data/vodus-test.xlsx ./data/vodus-test.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/ejs": "^3.1.1",
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.9",
+    "eslint": "^8.26.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.6",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "jquery": "^3.6.1",
+    "node-xlsx": "^0.21.0",
+    "xlsx": "^0.18.5"
+  }
+}
